@@ -4,6 +4,8 @@ This repository provides a closed-source Windows x64 binary release of the ADR s
 
 No source code is included in this repository.
 
+Current version: `0.1.0`
+
 ## Contents
 
 ```text
@@ -15,6 +17,8 @@ input/
 run_example.bat
 NOTICE.md
 LICENSE.md
+VERSION
+CHANGELOG.md
 ```
 
 ## Requirements
@@ -43,6 +47,10 @@ input/input_parameter_0002.toml
 ```
 
 `input/input_parameter_reference.toml` is a copyable parameter template.
+
+## Version History
+
+See `CHANGELOG.md`.
 
 ## Distribution Notice
 
