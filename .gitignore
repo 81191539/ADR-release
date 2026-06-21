@@ -38,6 +38,12 @@
 *.exe
 *.out
 *.app
+!bin/
+!bin/df2d.exe
+
+# Packaged release archives
+!release/
+!release/*.zip
 
 # Build directories
 build/
@@ -67,3 +73,6 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# Solver runtime outputs
+output/

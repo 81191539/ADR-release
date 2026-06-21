@@ -1,0 +1,24 @@
+case_id = 1
+lam = 0.033333
+Pe = 10
+Pe2 = 10
+eps = 0.1
+Da = 100
+K0 = 1
+ny = 16
+xpo_l = 0.33333
+xpo_r = 0.66667
+endT = 0.05
+total_count = 5
+coeff_dt = 0.1
+x_ini_posi = 5
+alpha = 0.01
+Sc = 16667
+
+[runtime]
+stats_interval = 1
+stability_check_interval = 1
+checkpoint_interval = 1000000
+output_matlab = true
+output_tecplot = false
+enable_dense_dump = false
